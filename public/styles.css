@@ -1,0 +1,97 @@
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgb(183, 153, 255),rgb(172, 188, 255));
+  }
+  
+  .chat-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .chat-container{
+    content: '';
+    background-image: url(../img.jpg);
+    opacity: 0.55;
+}
+
+  #message-container {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  
+  
+  #message-container div {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+  }
+  
+  #message-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #message-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+
+  .message {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .sender {
+    justify-content: flex-end;
+  }
+  
+  .receiver {
+    justify-content: flex-start;
+  }
+
+  .align-right .sender-name {
+    text-align: right;
+  }
+  
+  .align-left .sender-name {
+    text-align: left;
+  }
+  
+  
+  .sender-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .message-content {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .receiver .message-content {
+    background-color: #e2e2e2;
+  }
+  
+  
